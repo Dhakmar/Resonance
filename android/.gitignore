@@ -1,24 +1,26 @@
-*.iml
-.gradle
-/local.properties
-.idea/*
-!.idea/codeStyles/
-!.idea/inspectionProfiles/
-!.idea/icon.png
-!.idea/vcs.xml
-!.idea/dictionaries
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-*.zip
-*.tar.gz
-*.rar
-*.log
+# Gradle
+.gradle/
 build/
-/*/build/
-bin/
-gen/
 out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# System
+.DS_Store
+Thumbs.db
+
+# libGDX
+html/build/
+core/build/
+desktop/build/
+android/build/
+lwjgl3/build/
+
+# Local properties
+local.properties
+gradle.properties
